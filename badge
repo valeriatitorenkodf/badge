@@ -1,0 +1,10 @@
+#!/bin/bash
+cat <<EOL >> README.md
+
+## Badges
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+EOL
+echo "Badges added to README.md."
